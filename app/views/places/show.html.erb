@@ -132,9 +132,10 @@
     <div class="col-12 col-sm-6">
       <blockquote>
         <%= image_tag photo.picture %>
-        <%= photo.caption %>
         <br />
-        <small><%= photo.user.email %></small>
+        <small><%= photo.caption %></small>
+        <br />
+        <small><%= photo.user.email%></small>
       </blockquote>
     </div>
   <% end %>
