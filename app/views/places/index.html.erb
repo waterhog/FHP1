@@ -18,6 +18,10 @@
       </div>
     <% end %>
 
+    <% if place.photos.present? %>
+      <%= image_tag place.photos.first.picture %>
+    <% end %>
+
   </div>
 <% end %>
 
